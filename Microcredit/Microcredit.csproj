@@ -1,0 +1,192 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Version>1.0.0</Version>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Areas\**" />
+    <Compile Remove="Context\**" />
+    <Compile Remove="Models\**" />
+    <Compile Remove="Reports\ReportBranches\**" />
+    <Compile Remove="Reports\ReportCustomers\**" />
+    <Compile Remove="Reports\ReportEmployees\**" />
+    <Compile Remove="Reports\ReportProductsWarehouse\**" />
+    <Compile Remove="Reports\ReportQuantityProduct\**" />
+    <Compile Remove="Services\00000MasterSellProductsSVC\**" />
+    <Compile Remove="Services\ConvertofStoresSVC\**" />
+    <Compile Remove="Services\______Searchproducts\**" />
+    <Content Remove="Areas\**" />
+    <Content Remove="Context\**" />
+    <Content Remove="Models\**" />
+    <Content Remove="Reports\ReportBranches\**" />
+    <Content Remove="Reports\ReportCustomers\**" />
+    <Content Remove="Reports\ReportEmployees\**" />
+    <Content Remove="Reports\ReportProductsWarehouse\**" />
+    <Content Remove="Reports\ReportQuantityProduct\**" />
+    <Content Remove="Services\00000MasterSellProductsSVC\**" />
+    <Content Remove="Services\ConvertofStoresSVC\**" />
+    <Content Remove="Services\______Searchproducts\**" />
+    <EmbeddedResource Remove="Areas\**" />
+    <EmbeddedResource Remove="Context\**" />
+    <EmbeddedResource Remove="Models\**" />
+    <EmbeddedResource Remove="Reports\ReportBranches\**" />
+    <EmbeddedResource Remove="Reports\ReportCustomers\**" />
+    <EmbeddedResource Remove="Reports\ReportEmployees\**" />
+    <EmbeddedResource Remove="Reports\ReportProductsWarehouse\**" />
+    <EmbeddedResource Remove="Reports\ReportQuantityProduct\**" />
+    <EmbeddedResource Remove="Services\00000MasterSellProductsSVC\**" />
+    <EmbeddedResource Remove="Services\ConvertofStoresSVC\**" />
+    <EmbeddedResource Remove="Services\______Searchproducts\**" />
+    <None Remove="Areas\**" />
+    <None Remove="Context\**" />
+    <None Remove="Models\**" />
+    <None Remove="Reports\ReportBranches\**" />
+    <None Remove="Reports\ReportCustomers\**" />
+    <None Remove="Reports\ReportEmployees\**" />
+    <None Remove="Reports\ReportProductsWarehouse\**" />
+    <None Remove="Reports\ReportQuantityProduct\**" />
+    <None Remove="Services\00000MasterSellProductsSVC\**" />
+    <None Remove="Services\ConvertofStoresSVC\**" />
+    <None Remove="Services\______Searchproducts\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+     <Compile Remove="ModelService\ActivityModel.cs" />
+    <Compile Remove="ModelService\AddressModel.cs" />
+    <Compile Remove="ModelService\AddUserModel.cs" />
+    <Compile Remove="ModelService\AdminBaseViewModel.cs" />
+    <Compile Remove="ModelService\AdminUserOptions.cs" />
+    <Compile Remove="ModelService\ApplicationUser.cs" />
+    <Compile Remove="ModelService\AppSettings.cs" />
+    <Compile Remove="ModelService\AppUserOptions.cs" />
+    <Compile Remove="ModelService\BranchesT.cs" />
+    <Compile Remove="ModelService\ConvertofStoresT.cs" />
+     <Compile Remove="ModelService\CountryModel.cs" />
+    <Compile Remove="ModelService\DashboardModel.cs" />
+    <Compile Remove="ModelService\DataProtectionKeys.cs" />
+    <Compile Remove="ModelService\DismissalnoticeT.cs" />
+    <Compile Remove="ModelService\DismissalnoticeT.cs" />
+    <Compile Remove="ModelService\IdentityDefaultOptions.cs" />
+    <Compile Remove="ModelService\InvoiceStoreStatusT.cs" />
+    <Compile Remove="ModelService\LoginViewModel.cs" />
+     <Compile Remove="ModelService\ManageStoreT.cs" />
+     <Compile Remove="ModelService\MasterProductsWarehouseT.cs" />
+     <Compile Remove="ModelService\NoColumnTable.cs" />
+     <Compile Remove="ModelService\ObjectQuantityProductT.cs" />
+     <Compile Remove="ModelService\OutLayUnitesT.cs" />
+     <Compile Remove="ModelService\PermissionToEntertheStoreProductT.cs" />
+     <Compile Remove="ModelService\ProductsWarehouseObjectT.cs" />
+     <Compile Remove="ModelService\ProductsWarehouseT.cs" />
+     <Compile Remove="ModelService\ProfileModel.cs" />
+     <Compile Remove="ModelService\QuantityProductT.cs" />
+     <Compile Remove="ModelService\ReportDismissalnotice.cs" />
+     <Compile Remove="ModelService\ReportProductsWarehouse.cs" />
+     <Compile Remove="ModelService\ReportSalesInvoiceById.cs" />
+     <Compile Remove="ModelService\ResetPasswordViewModel.cs" />
+     <Compile Remove="ModelService\SalesinvoiceObject.cs" />
+     <Compile Remove="ModelService\SalesinvoiceT.cs" />
+       <Compile Remove="ModelService\SendGridOptions.cs" />
+    <Compile Remove="ModelService\SiteWideSettings.cs" />
+    <Compile Remove="ModelService\SmtpOptions.cs" />
+    <Compile Remove="ModelService\SuppliersT.cs" />
+     <Compile Remove="ModelService\TokenModel.cs" />
+    <Compile Remove="ModelService\TokenRequestModel.cs" />
+    <Compile Remove="ModelService\TokenResponseModel.cs" />
+    <Compile Remove="ModelService\UnitesT.cs" />
+    <Compile Remove="ModelService\UserModel.cs" />
+    <Compile Remove="Reports\ExecuteSP\ExcuteSpSalesInvoice.cs" />
+    <Compile Remove="Reports\ExecuteSP\ExecuteBranches.cs" />
+    <Compile Remove="Reports\ExecuteSP\ExecuteConvertofStores.cs" />
+    <Compile Remove="Reports\ExecuteSP\ExecuteDismissalnotice.cs" />
+    <Compile Remove="Reports\ExecuteSP\ExecuteManageStore.cs" />
+    <Compile Remove="Reports\ExecuteSP\ExecuteMasterOFSTores.cs" />
+    <Compile Remove="Reports\ExecuteSP\ExecutePermissionToEntertheStoreProductReport.cs" />
+    <Compile Remove="Reports\ExecuteSP\ExecuteProductsWarehouse.cs" />
+    <Compile Remove="Reports\ExecuteSP\IExecuteConvertofStores.cs" />
+    <Compile Remove="Reports\ExecuteSP\IExecuteDismissalnotice.cs" />
+    <Compile Remove="Reports\ExecuteSP\IExecuteManageStore.cs" />
+    <Compile Remove="Reports\ExecuteSP\IExecuteProductsWarehouse.cs" />
+    <Compile Remove="Reports\ExecuteSP\IExecuteSPSalesInvoice.cs" />
+    <Compile Remove="Reports\ExecuteSP\IReportExecutePermissionToEntertheStoreProduct.cs" />
+    <Compile Remove="Reports\ExecuteSP\ModelRepor\AllInfoAboutcustomerLoanModelReport.cs" />
+    <Compile Remove="Reports\ExecuteSP\__IGetAllPermissionToEntertheStoreProduct.cs" />
+    <Compile Remove="Reports\ExecuteSP\___ExecuteGetAllPermissionToEntertheStoreProduct.cs" />
+     </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="00.sql" />
+    <None Remove="libwkhtmltox.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Models\CategoriesT.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="libwkhtmltox.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BuildBundlerMinifier" Version="3.2.449" />
+    <PackageReference Include="DinkToPdf" Version="1.0.8" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Cors" Version="5.2.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection" Version="6.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection.Abstractions" Version="6.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="6.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="6.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational.Design" Version="1.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration" Version="6.0.10" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.10" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Serilog" Version="2.12.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="6.0.1" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="3.4.0" />
+    <PackageReference Include="Serilog.Sinks.Async" Version="1.5.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="4.1.0" />
+     <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2022.4.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="libwkhtmltox.dylib">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="libwkhtmltox.so">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Logs\" />
+  </ItemGroup>
+
+</Project>

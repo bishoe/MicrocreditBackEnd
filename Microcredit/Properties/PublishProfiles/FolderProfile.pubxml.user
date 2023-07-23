@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <History>False|2023-06-18T10:20:32.7325497Z;False|2023-06-18T13:18:57.8669125+03:00;False|2023-06-18T13:15:00.4051218+03:00;False|2023-06-18T13:12:46.8943959+03:00;False|2023-06-18T13:12:10.5874885+03:00;False|2023-06-18T13:11:50.9759367+03:00;False|2023-06-18T13:10:21.3130615+03:00;False|2023-06-18T12:32:35.8579337+03:00;False|2023-06-18T12:28:22.3114707+03:00;False|2023-06-18T12:27:14.1079590+03:00;True|2023-05-26T19:46:04.6098851+03:00;False|2023-05-26T19:44:44.2668842+03:00;True|2023-05-26T15:20:22.1984566+03:00;False|2023-05-26T15:19:33.2204558+03:00;False|2023-05-26T15:18:37.8174547+03:00;False|2023-05-26T15:15:46.9154587+03:00;</History>
+    <LastFailureDetails />
+    <_PublishTargetUrl>H:\MicrocreditDB\MicrocreditBackEnd\Microcredit\bin\Release\net6.0\publish\</_PublishTargetUrl>
+  </PropertyGroup>
+</Project>
