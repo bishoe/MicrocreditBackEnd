@@ -1,0 +1,28 @@
+0 underedit
+1 IssuanceLona
+2 complete
+3 delete
+--------------------------------------
+    this._PaymentOfistallmentsService.CreateNewPaymentOfistallments
+0 IssuanceLona
+1 completeLona
+--------------------------
+MainPaymentOfistallments =>  AddnewPaymentOfistallments1
+
+
+PaymentOfistallmentsDetails
+0 notpaid
+1 paid 
+2 partialy repaid
+3 deleted
+ addNewLonaMasters.StatusLona = 1
+ 
+----------------------------------------------------------------- 
+ListPaymentOfistallments
+
+ 0 IssuanceLona
+ 1 complete
+ 
+ 
+
+-----------------------------------------------------------------
